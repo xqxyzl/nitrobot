@@ -40,7 +40,7 @@ const client = new Client({
 const clientId = "1134982440818057277"; // bot id
 const guildId = "1126517847414292593"; // the guild id (where you use the bot)
 const token =
-  "MTEzNDk4MjQ0MDgxODA1NzI3Nw.GAceye.yVmYWjI43B5059iiE_sMQ2Wsi3IOXJlBkJXrQA"; // bot token
+  "TON TKN"; // bot token
 
 const allowedUserIds = ["", ""]; // you can add multiple id's
 const commands = [
@@ -229,5 +229,5 @@ Hope to see you again buying from us : ***https://discord.gg/etwalshop***
 });
 
 client.login(
-  "MTEzNDk4MjQ0MDgxODA1NzI3Nw.GAceye.yVmYWjI43B5059iiE_sMQ2Wsi3IOXJlBkJXrQA",
+  "TON TKN",
 );
