@@ -228,6 +228,4 @@ Hope to see you again buying from us : ***https://discord.gg/etwalshop***
   }
 });
 
-client.login(
-  "TON TKN",
-);
+client.login(token)
