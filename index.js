@@ -1,4 +1,4 @@
-///////////////////////////////////////////////////////////////// MADE BY XQWH \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+///////////////////////////////////////////////////////////////// MADE BY ex#1337 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 //Don't touch the code unless you know what you're doing
 console.log("                                       ------.");
 console.log("                                           / !");
@@ -8,7 +8,7 @@ console.log("   *             *         *            *");
 console.log("  *                *     *                *");
 console.log(" *                    *                    *");
 console.log("*                                           *");
-console.log("*                    xqwh!!!               *");
+console.log("*                    ex#1337!!!               *");
 console.log(" *                                        *");
 console.log("  *                                      *");
 console.log("    *             /                    *");
@@ -46,23 +46,23 @@ const allowedUserIds = ["", ""]; // you can add multiple id's
 const commands = [
   {
     name: "drop",
-    description: "Drop codes for a user - made by xqwh",
+    description: "Drop codes for a user - made by ex#1337",
     options: [
       {
         name: "user",
-        description: "The user to send codes to - made by xqwh",
+        description: "The user to send codes to - made by ex#1337",
         type: 6, // USER
         required: true,
       },
       {
         name: "quantity",
-        description: "The number of codes to drop - made by xqwh",
+        description: "The number of codes to drop - made by ex#1337",
         type: 4, // INTEGER
         required: true,
       },
       {
         name: "item",
-        description: "The item to drop codes for - made by xqwh",
+        description: "The item to drop codes for - made by ex#1337",
         choices: [
           { name: "Nitro Basics", value: "nitroBasic" },
           { name: "Nitro Boosts", value: "nitroBoost" },
@@ -75,16 +75,16 @@ const commands = [
   {
     name: "stocks",
     description:
-      "Check the stock of Nitro Basics and Nitro Boosts - made by xqwh",
+      "Check the stock of Nitro Basics and Nitro Boosts - made by ex#1337",
   },
   {
     name: "restock",
     description:
-      "Restock codes for Nitro Basics or Nitro Boosts - made by xqwh",
+      "Restock codes for Nitro Basics or Nitro Boosts - made by ex#1337",
     options: [
       {
         name: "type",
-        description: "The type of codes to restock - made by xqwh",
+        description: "The type of codes to restock - made by ex#1337",
         type: 3, // STRING
         required: true,
         choices: [
@@ -94,7 +94,7 @@ const commands = [
       },
       {
         name: "links",
-        description: "The links to restock - made by xqwh",
+        description: "The links to restock - made by ex#1337",
         type: 3, // STRING
         required: true,
       },
@@ -106,20 +106,20 @@ const rest = new REST({ version: "10" }).setToken(token);
 
 (async () => {
   try {
-    //console.log("Started refreshing application (/) commands. - made by xqwh");
+    //console.log("Started refreshing application (/) commands. - made by ex#1337");
 
     await rest.put(Routes.applicationGuildCommands(clientId, guildId), {
       body: commands,
     });
 
-    //console.log("Successfully reloaded application (/) commands. - made by xqwh");
+    //console.log("Successfully reloaded application (/) commands. - made by ex#1337");
   } catch (error) {
     console.error(error);
   }
 })();
 
 client.once("ready", () => {
-  console.log(`Connecté en tant que ${client.user.tag} - made by xqwh`);
+  console.log(`Connecté en tant que ${client.user.tag} - made by ex#1337`);
 });
 
 client.on("interactionCreate", async (interaction) => {
